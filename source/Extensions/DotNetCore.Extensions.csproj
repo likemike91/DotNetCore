@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>DotNetCore.Extensions</AssemblyName>
+        <Authors>DotNetCore</Authors>
+        <Description>The package provides static classes with extensions methods.</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>DotNetCore.Extensions</PackageId>
+        <PackageProjectUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Extensions</PackageProjectUrl>
+        <PackageTags>Extensions</PackageTags>
+        <RepositoryUrl>https://github.com/rafaelfgx/DotNetCore/tree/master/source/Extensions</RepositoryUrl>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <Version>6.2.0</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    </ItemGroup>
+</Project>
